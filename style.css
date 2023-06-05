@@ -1,5 +1,5 @@
 body{
-    background-color: yellow ;
+    background:linear-gradient(to right,#3E5151,#DECBA4) ;
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -12,18 +12,22 @@ body{
 }
 
 .container{
-    background-color: darkcyan;
+    background-color: #3E5151;
     color: aliceblue;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* height: 300px;
+    width: 500px; */
+    /* gap:50px;
+    column-gap: 100px; */
 }
 
         
 .currency-container{
-    padding: 20px;
+    padding: 60px;
     display: flex;
     justify-content: space-between;
 
@@ -36,7 +40,7 @@ body{
 .currency-container input{
     border: 0;
     background: transparent;
-    font-size: 30px;
+    font-size: 20px;
     text-align: right;
     color: aliceblue;
 }
@@ -50,3 +54,4 @@ select:focus,
 input:focus{
     outline:0;
 }
+
